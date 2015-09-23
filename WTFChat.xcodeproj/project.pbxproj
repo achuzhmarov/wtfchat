@@ -7,12 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0915DD89306A197739C98209 /* libPods-WTFChat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 905623BA880926CAEDEC04AB /* libPods-WTFChat.a */; };
+		482C241A1BA433D500288BB1 /* CipherFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482C24191BA433D500288BB1 /* CipherFactory.swift */; };
+		482C241E1BA433F800288BB1 /* FirstLetterCipher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482C241D1BA433F800288BB1 /* FirstLetterCipher.swift */; };
+		482C24201BA4340A00288BB1 /* HalfWordRoundDownDecipher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482C241F1BA4340A00288BB1 /* HalfWordRoundDownDecipher.swift */; };
+		482C24221BA4341800288BB1 /* HalfWordRoundUpDecipher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482C24211BA4341800288BB1 /* HalfWordRoundUpDecipher.swift */; };
+		482C24241BA43CE500288BB1 /* ShuffleCipher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482C24231BA43CE500288BB1 /* ShuffleCipher.swift */; };
+		487D77171BA0507000AF333C /* WordsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487D77161BA0507000AF333C /* WordsView.swift */; };
+		487D771B1BA0749800AF333C /* RoundedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487D771A1BA0749800AF333C /* RoundedLabel.swift */; };
+		487D771D1BA0878400AF333C /* WordLabelContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487D771C1BA0878400AF333C /* WordLabelContainer.swift */; };
 		489666981B9B640400F769D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489666971B9B640400F769D1 /* AppDelegate.swift */; };
-		4896669A1B9B640400F769D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489666991B9B640400F769D1 /* ViewController.swift */; };
 		4896669D1B9B640400F769D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4896669B1B9B640400F769D1 /* Main.storyboard */; };
 		4896669F1B9B640400F769D1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4896669E1B9B640400F769D1 /* Images.xcassets */; };
 		489666A21B9B640400F769D1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 489666A01B9B640400F769D1 /* LaunchScreen.xib */; };
 		489666AE1B9B640400F769D1 /* WTFChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489666AD1B9B640400F769D1 /* WTFChatTests.swift */; };
+		489666BA1B9B650400F769D1 /* FriendCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489666B81B9B650400F769D1 /* FriendCell.swift */; };
+		489666BB1B9B650400F769D1 /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489666B91B9B650400F769D1 /* FriendsViewController.swift */; };
+		489666C21B9B651800F769D1 /* BaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489666BD1B9B651800F769D1 /* BaseService.swift */; };
+		489666C31B9B651800F769D1 /* MessageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489666BE1B9B651800F769D1 /* MessageService.swift */; };
+		489666C41B9B651800F769D1 /* TalkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489666BF1B9B651800F769D1 /* TalkService.swift */; };
+		489666C51B9B651800F769D1 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489666C01B9B651800F769D1 /* UserService.swift */; };
+		489666D81B9B656A00F769D1 /* BaseEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489666D31B9B656A00F769D1 /* BaseEntity.swift */; };
+		489666D91B9B656A00F769D1 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489666D41B9B656A00F769D1 /* Message.swift */; };
+		489666DA1B9B656A00F769D1 /* Talk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489666D51B9B656A00F769D1 /* Talk.swift */; };
+		489666DB1B9B656A00F769D1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489666D61B9B656A00F769D1 /* User.swift */; };
+		489666DC1B9B656A00F769D1 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489666D71B9B656A00F769D1 /* Word.swift */; };
+		48A2F9A41B9DD6D9009E5434 /* DecipherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A2F9A31B9DD6D9009E5434 /* DecipherViewController.swift */; };
+		48A2F9A81B9DF42C009E5434 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A2F9A71B9DF42C009E5434 /* Extensions.swift */; };
+		48ECC8F61B9DA8E400A15B47 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48ECC8F51B9DA8E400A15B47 /* MessagesViewController.swift */; };
+		48EEB6261BA2F368007C5B5F /* AudioHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EEB6251BA2F368007C5B5F /* AudioHelper.swift */; };
+		48EEB6411BA31F0D007C5B5F /* error.wav in Resources */ = {isa = PBXBuildFile; fileRef = 48EEB6341BA31F0D007C5B5F /* error.wav */; };
+		48EEB6421BA31F0D007C5B5F /* lose.wav in Resources */ = {isa = PBXBuildFile; fileRef = 48EEB6351BA31F0D007C5B5F /* lose.wav */; };
+		48EEB6431BA31F0D007C5B5F /* game-over.wav in Resources */ = {isa = PBXBuildFile; fileRef = 48EEB6361BA31F0D007C5B5F /* game-over.wav */; };
+		48EEB6441BA31F0D007C5B5F /* game-sound-wrong.wav in Resources */ = {isa = PBXBuildFile; fileRef = 48EEB6371BA31F0D007C5B5F /* game-sound-wrong.wav */; };
+		48EEB6451BA31F0D007C5B5F /* invalid.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 48EEB6381BA31F0D007C5B5F /* invalid.mp3 */; };
+		48EEB6461BA31F0D007C5B5F /* win.wav in Resources */ = {isa = PBXBuildFile; fileRef = 48EEB6391BA31F0D007C5B5F /* win.wav */; };
+		48EEB6471BA31F0D007C5B5F /* warning.wav in Resources */ = {isa = PBXBuildFile; fileRef = 48EEB63A1BA31F0D007C5B5F /* warning.wav */; };
+		48EEB6481BA31F0D007C5B5F /* retro-you-lose-sfx.wav in Resources */ = {isa = PBXBuildFile; fileRef = 48EEB63B1BA31F0D007C5B5F /* retro-you-lose-sfx.wav */; };
+		48EEB6491BA31F0D007C5B5F /* success-01.wav in Resources */ = {isa = PBXBuildFile; fileRef = 48EEB63C1BA31F0D007C5B5F /* success-01.wav */; };
+		48EEB64A1BA31F0D007C5B5F /* success.wav in Resources */ = {isa = PBXBuildFile; fileRef = 48EEB63D1BA31F0D007C5B5F /* success.wav */; };
+		48EEB64B1BA31F0D007C5B5F /* ui-completed-status-alert-notification-sfx001.wav in Resources */ = {isa = PBXBuildFile; fileRef = 48EEB63E1BA31F0D007C5B5F /* ui-completed-status-alert-notification-sfx001.wav */; };
+		48EEB64C1BA31F0D007C5B5F /* ui-completed-status-alert-notification-sfx002.wav in Resources */ = {isa = PBXBuildFile; fileRef = 48EEB63F1BA31F0D007C5B5F /* ui-completed-status-alert-notification-sfx002.wav */; };
+		48EEB64D1BA31F0D007C5B5F /* ui-completed-status-alert-notification-sfx003.wav in Resources */ = {isa = PBXBuildFile; fileRef = 48EEB6401BA31F0D007C5B5F /* ui-completed-status-alert-notification-sfx003.wav */; };
+		48F2F5451BA1CAB2005CCAC8 /* WordsField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F2F5441BA1CAB2005CCAC8 /* WordsField.swift */; };
+		48F2F5471BA1DA71005CCAC8 /* StringDistanceCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F2F5461BA1DA71005CCAC8 /* StringDistanceCalculator.swift */; };
+		48F2F5491BA1FF5A005CCAC8 /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F2F5481BA1FF5A005CCAC8 /* Timer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +65,58 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		482C24191BA433D500288BB1 /* CipherFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CipherFactory.swift; sourceTree = "<group>"; };
+		482C241D1BA433F800288BB1 /* FirstLetterCipher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstLetterCipher.swift; sourceTree = "<group>"; };
+		482C241F1BA4340A00288BB1 /* HalfWordRoundDownDecipher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HalfWordRoundDownDecipher.swift; sourceTree = "<group>"; };
+		482C24211BA4341800288BB1 /* HalfWordRoundUpDecipher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HalfWordRoundUpDecipher.swift; sourceTree = "<group>"; };
+		482C24231BA43CE500288BB1 /* ShuffleCipher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShuffleCipher.swift; sourceTree = "<group>"; };
+		487D77161BA0507000AF333C /* WordsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordsView.swift; sourceTree = "<group>"; };
+		487D771A1BA0749800AF333C /* RoundedLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedLabel.swift; sourceTree = "<group>"; };
+		487D771C1BA0878400AF333C /* WordLabelContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordLabelContainer.swift; sourceTree = "<group>"; };
 		489666921B9B640400F769D1 /* WTFChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WTFChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		489666961B9B640400F769D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		489666971B9B640400F769D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		489666991B9B640400F769D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4896669C1B9B640400F769D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4896669E1B9B640400F769D1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		489666A11B9B640400F769D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		489666A71B9B640400F769D1 /* WTFChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WTFChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		489666AC1B9B640400F769D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		489666AD1B9B640400F769D1 /* WTFChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTFChatTests.swift; sourceTree = "<group>"; };
+		489666B81B9B650400F769D1 /* FriendCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendCell.swift; sourceTree = "<group>"; };
+		489666B91B9B650400F769D1 /* FriendsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
+		489666BD1B9B651800F769D1 /* BaseService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseService.swift; sourceTree = "<group>"; };
+		489666BE1B9B651800F769D1 /* MessageService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageService.swift; sourceTree = "<group>"; };
+		489666BF1B9B651800F769D1 /* TalkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TalkService.swift; sourceTree = "<group>"; };
+		489666C01B9B651800F769D1 /* UserService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		489666D31B9B656A00F769D1 /* BaseEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseEntity.swift; sourceTree = "<group>"; };
+		489666D41B9B656A00F769D1 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		489666D51B9B656A00F769D1 /* Talk.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Talk.swift; sourceTree = "<group>"; };
+		489666D61B9B656A00F769D1 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		489666D71B9B656A00F769D1 /* Word.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
+		48A2F9A31B9DD6D9009E5434 /* DecipherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecipherViewController.swift; sourceTree = "<group>"; };
+		48A2F9A71B9DF42C009E5434 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		48ECC8EE1B9DA0F900A15B47 /* WTFChat-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WTFChat-Bridging-Header.h"; sourceTree = "<group>"; };
+		48ECC8F51B9DA8E400A15B47 /* MessagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		48EEB6251BA2F368007C5B5F /* AudioHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioHelper.swift; sourceTree = "<group>"; };
+		48EEB6341BA31F0D007C5B5F /* error.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = error.wav; path = Sounds/error.wav; sourceTree = SOURCE_ROOT; };
+		48EEB6351BA31F0D007C5B5F /* lose.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = lose.wav; path = Sounds/lose.wav; sourceTree = SOURCE_ROOT; };
+		48EEB6361BA31F0D007C5B5F /* game-over.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "game-over.wav"; path = "Sounds/game-over.wav"; sourceTree = SOURCE_ROOT; };
+		48EEB6371BA31F0D007C5B5F /* game-sound-wrong.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "game-sound-wrong.wav"; path = "Sounds/game-sound-wrong.wav"; sourceTree = SOURCE_ROOT; };
+		48EEB6381BA31F0D007C5B5F /* invalid.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = invalid.mp3; path = Sounds/invalid.mp3; sourceTree = SOURCE_ROOT; };
+		48EEB6391BA31F0D007C5B5F /* win.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = win.wav; path = Sounds/win.wav; sourceTree = SOURCE_ROOT; };
+		48EEB63A1BA31F0D007C5B5F /* warning.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = warning.wav; path = Sounds/warning.wav; sourceTree = SOURCE_ROOT; };
+		48EEB63B1BA31F0D007C5B5F /* retro-you-lose-sfx.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "retro-you-lose-sfx.wav"; path = "Sounds/retro-you-lose-sfx.wav"; sourceTree = SOURCE_ROOT; };
+		48EEB63C1BA31F0D007C5B5F /* success-01.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "success-01.wav"; path = "Sounds/success-01.wav"; sourceTree = SOURCE_ROOT; };
+		48EEB63D1BA31F0D007C5B5F /* success.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = success.wav; path = Sounds/success.wav; sourceTree = SOURCE_ROOT; };
+		48EEB63E1BA31F0D007C5B5F /* ui-completed-status-alert-notification-sfx001.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "ui-completed-status-alert-notification-sfx001.wav"; path = "Sounds/ui-completed-status-alert-notification-sfx001.wav"; sourceTree = SOURCE_ROOT; };
+		48EEB63F1BA31F0D007C5B5F /* ui-completed-status-alert-notification-sfx002.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "ui-completed-status-alert-notification-sfx002.wav"; path = "Sounds/ui-completed-status-alert-notification-sfx002.wav"; sourceTree = SOURCE_ROOT; };
+		48EEB6401BA31F0D007C5B5F /* ui-completed-status-alert-notification-sfx003.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "ui-completed-status-alert-notification-sfx003.wav"; path = "Sounds/ui-completed-status-alert-notification-sfx003.wav"; sourceTree = SOURCE_ROOT; };
+		48F2F5441BA1CAB2005CCAC8 /* WordsField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordsField.swift; sourceTree = "<group>"; };
+		48F2F5461BA1DA71005CCAC8 /* StringDistanceCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringDistanceCalculator.swift; sourceTree = "<group>"; };
+		48F2F5481BA1FF5A005CCAC8 /* Timer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
+		85BDBDD3C303D2C8FE03A6D1 /* Pods-WTFChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WTFChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-WTFChat/Pods-WTFChat.release.xcconfig"; sourceTree = "<group>"; };
+		905623BA880926CAEDEC04AB /* libPods-WTFChat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WTFChat.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6B0BAA5F642DB9106564046 /* Pods-WTFChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WTFChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WTFChat/Pods-WTFChat.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +124,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0915DD89306A197739C98209 /* libPods-WTFChat.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +138,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		482C24181BA433C500288BB1 /* Cipher */ = {
+			isa = PBXGroup;
+			children = (
+				482C24191BA433D500288BB1 /* CipherFactory.swift */,
+				482C241D1BA433F800288BB1 /* FirstLetterCipher.swift */,
+				482C241F1BA4340A00288BB1 /* HalfWordRoundDownDecipher.swift */,
+				482C24211BA4341800288BB1 /* HalfWordRoundUpDecipher.swift */,
+				482C24231BA43CE500288BB1 /* ShuffleCipher.swift */,
+			);
+			name = Cipher;
+			sourceTree = "<group>";
+		};
 		489666891B9B640400F769D1 = {
 			isa = PBXGroup;
 			children = (
 				489666941B9B640400F769D1 /* WTFChat */,
 				489666AA1B9B640400F769D1 /* WTFChatTests */,
 				489666931B9B640400F769D1 /* Products */,
+				9F89143259A9E4AF7B3EA9BD /* Pods */,
+				49D7C70BCF12E2F6E166B7B5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,12 +173,20 @@
 		489666941B9B640400F769D1 /* WTFChat */ = {
 			isa = PBXGroup;
 			children = (
+				482C24181BA433C500288BB1 /* Cipher */,
+				48EEB6271BA2FB3C007C5B5F /* Sounds */,
+				489666D21B9B656A00F769D1 /* Model */,
+				489666BC1B9B651800F769D1 /* Dao */,
+				489666B71B9B650400F769D1 /* Controllers */,
 				489666971B9B640400F769D1 /* AppDelegate.swift */,
-				489666991B9B640400F769D1 /* ViewController.swift */,
 				4896669B1B9B640400F769D1 /* Main.storyboard */,
 				4896669E1B9B640400F769D1 /* Images.xcassets */,
 				489666A01B9B640400F769D1 /* LaunchScreen.xib */,
 				489666951B9B640400F769D1 /* Supporting Files */,
+				48ECC8EE1B9DA0F900A15B47 /* WTFChat-Bridging-Header.h */,
+				48A2F9A71B9DF42C009E5434 /* Extensions.swift */,
+				48F2F5461BA1DA71005CCAC8 /* StringDistanceCalculator.swift */,
+				48EEB6251BA2F368007C5B5F /* AudioHelper.swift */,
 			);
 			path = WTFChat;
 			sourceTree = "<group>";
@@ -112,6 +216,82 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		489666B71B9B650400F769D1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				489666B81B9B650400F769D1 /* FriendCell.swift */,
+				489666B91B9B650400F769D1 /* FriendsViewController.swift */,
+				48ECC8F51B9DA8E400A15B47 /* MessagesViewController.swift */,
+				48A2F9A31B9DD6D9009E5434 /* DecipherViewController.swift */,
+				487D77161BA0507000AF333C /* WordsView.swift */,
+				487D771A1BA0749800AF333C /* RoundedLabel.swift */,
+				487D771C1BA0878400AF333C /* WordLabelContainer.swift */,
+				48F2F5441BA1CAB2005CCAC8 /* WordsField.swift */,
+				48F2F5481BA1FF5A005CCAC8 /* Timer.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		489666BC1B9B651800F769D1 /* Dao */ = {
+			isa = PBXGroup;
+			children = (
+				489666BD1B9B651800F769D1 /* BaseService.swift */,
+				489666BE1B9B651800F769D1 /* MessageService.swift */,
+				489666BF1B9B651800F769D1 /* TalkService.swift */,
+				489666C01B9B651800F769D1 /* UserService.swift */,
+			);
+			path = Dao;
+			sourceTree = "<group>";
+		};
+		489666D21B9B656A00F769D1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				489666D31B9B656A00F769D1 /* BaseEntity.swift */,
+				489666D41B9B656A00F769D1 /* Message.swift */,
+				489666D51B9B656A00F769D1 /* Talk.swift */,
+				489666D61B9B656A00F769D1 /* User.swift */,
+				489666D71B9B656A00F769D1 /* Word.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		48EEB6271BA2FB3C007C5B5F /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				48EEB6341BA31F0D007C5B5F /* error.wav */,
+				48EEB6351BA31F0D007C5B5F /* lose.wav */,
+				48EEB6361BA31F0D007C5B5F /* game-over.wav */,
+				48EEB6371BA31F0D007C5B5F /* game-sound-wrong.wav */,
+				48EEB6381BA31F0D007C5B5F /* invalid.mp3 */,
+				48EEB6391BA31F0D007C5B5F /* win.wav */,
+				48EEB63A1BA31F0D007C5B5F /* warning.wav */,
+				48EEB63B1BA31F0D007C5B5F /* retro-you-lose-sfx.wav */,
+				48EEB63C1BA31F0D007C5B5F /* success-01.wav */,
+				48EEB63D1BA31F0D007C5B5F /* success.wav */,
+				48EEB63E1BA31F0D007C5B5F /* ui-completed-status-alert-notification-sfx001.wav */,
+				48EEB63F1BA31F0D007C5B5F /* ui-completed-status-alert-notification-sfx002.wav */,
+				48EEB6401BA31F0D007C5B5F /* ui-completed-status-alert-notification-sfx003.wav */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+		49D7C70BCF12E2F6E166B7B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				905623BA880926CAEDEC04AB /* libPods-WTFChat.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F89143259A9E4AF7B3EA9BD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D6B0BAA5F642DB9106564046 /* Pods-WTFChat.debug.xcconfig */,
+				85BDBDD3C303D2C8FE03A6D1 /* Pods-WTFChat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -119,9 +299,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 489666B11B9B640400F769D1 /* Build configuration list for PBXNativeTarget "WTFChat" */;
 			buildPhases = (
+				A69B44AA7648B4BE523163ED /* Check Pods Manifest.lock */,
 				4896668E1B9B640400F769D1 /* Sources */,
 				4896668F1B9B640400F769D1 /* Frameworks */,
 				489666901B9B640400F769D1 /* Resources */,
+				B7C7FAC9600CC6155BDE07C8 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -156,11 +338,14 @@
 		4896668A1B9B640400F769D1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Artem Chuzhmarov";
 				TargetAttributes = {
 					489666911B9B640400F769D1 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 9Z57ENU7SL;
 					};
 					489666A61B9B640400F769D1 = {
 						CreatedOnToolsVersion = 6.4;
@@ -192,9 +377,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48EEB64D1BA31F0D007C5B5F /* ui-completed-status-alert-notification-sfx003.wav in Resources */,
+				48EEB6451BA31F0D007C5B5F /* invalid.mp3 in Resources */,
+				48EEB6461BA31F0D007C5B5F /* win.wav in Resources */,
+				48EEB6481BA31F0D007C5B5F /* retro-you-lose-sfx.wav in Resources */,
 				4896669D1B9B640400F769D1 /* Main.storyboard in Resources */,
 				489666A21B9B640400F769D1 /* LaunchScreen.xib in Resources */,
+				48EEB6421BA31F0D007C5B5F /* lose.wav in Resources */,
+				48EEB6441BA31F0D007C5B5F /* game-sound-wrong.wav in Resources */,
 				4896669F1B9B640400F769D1 /* Images.xcassets in Resources */,
+				48EEB64C1BA31F0D007C5B5F /* ui-completed-status-alert-notification-sfx002.wav in Resources */,
+				48EEB6471BA31F0D007C5B5F /* warning.wav in Resources */,
+				48EEB6491BA31F0D007C5B5F /* success-01.wav in Resources */,
+				48EEB64B1BA31F0D007C5B5F /* ui-completed-status-alert-notification-sfx001.wav in Resources */,
+				48EEB6431BA31F0D007C5B5F /* game-over.wav in Resources */,
+				48EEB64A1BA31F0D007C5B5F /* success.wav in Resources */,
+				48EEB6411BA31F0D007C5B5F /* error.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,12 +405,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A69B44AA7648B4BE523163ED /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B7C7FAC9600CC6155BDE07C8 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WTFChat/Pods-WTFChat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4896668E1B9B640400F769D1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4896669A1B9B640400F769D1 /* ViewController.swift in Sources */,
+				48EEB6261BA2F368007C5B5F /* AudioHelper.swift in Sources */,
+				489666DC1B9B656A00F769D1 /* Word.swift in Sources */,
+				48F2F5471BA1DA71005CCAC8 /* StringDistanceCalculator.swift in Sources */,
+				482C24241BA43CE500288BB1 /* ShuffleCipher.swift in Sources */,
+				489666BB1B9B650400F769D1 /* FriendsViewController.swift in Sources */,
+				489666D81B9B656A00F769D1 /* BaseEntity.swift in Sources */,
+				487D771B1BA0749800AF333C /* RoundedLabel.swift in Sources */,
+				489666C41B9B651800F769D1 /* TalkService.swift in Sources */,
+				487D77171BA0507000AF333C /* WordsView.swift in Sources */,
+				482C241E1BA433F800288BB1 /* FirstLetterCipher.swift in Sources */,
+				489666DA1B9B656A00F769D1 /* Talk.swift in Sources */,
+				489666C51B9B651800F769D1 /* UserService.swift in Sources */,
+				48F2F5491BA1FF5A005CCAC8 /* Timer.swift in Sources */,
+				482C241A1BA433D500288BB1 /* CipherFactory.swift in Sources */,
+				487D771D1BA0878400AF333C /* WordLabelContainer.swift in Sources */,
+				489666BA1B9B650400F769D1 /* FriendCell.swift in Sources */,
+				489666C21B9B651800F769D1 /* BaseService.swift in Sources */,
+				489666DB1B9B656A00F769D1 /* User.swift in Sources */,
+				489666D91B9B656A00F769D1 /* Message.swift in Sources */,
+				48F2F5451BA1CAB2005CCAC8 /* WordsField.swift in Sources */,
+				48A2F9A81B9DF42C009E5434 /* Extensions.swift in Sources */,
+				489666C31B9B651800F769D1 /* MessageService.swift in Sources */,
+				482C24201BA4340A00288BB1 /* HalfWordRoundDownDecipher.swift in Sources */,
+				482C24221BA4341800288BB1 /* HalfWordRoundUpDecipher.swift in Sources */,
+				48ECC8F61B9DA8E400A15B47 /* MessagesViewController.swift in Sources */,
+				48A2F9A41B9DD6D9009E5434 /* DecipherViewController.swift in Sources */,
 				489666981B9B640400F769D1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -340,21 +596,36 @@
 		};
 		489666B21B9B640400F769D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6B0BAA5F642DB9106564046 /* Pods-WTFChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = WTFChat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "WTFChat/WTFChat-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		489666B31B9B640400F769D1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85BDBDD3C303D2C8FE03A6D1 /* Pods-WTFChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = WTFChat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "WTFChat/WTFChat-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -411,6 +682,7 @@
 				489666B31B9B640400F769D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		489666B41B9B640400F769D1 /* Build configuration list for PBXNativeTarget "WTFChatTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +691,7 @@
 				489666B61B9B640400F769D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
